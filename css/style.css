@@ -1,0 +1,42 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'Cinzel', serif;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: black;
+}
+
+.header {
+	text-align: right;
+}
+
+.controls {
+    background-image: none
+}
+
+@media screen and (max-width: 1000px) {
+	.logo,
+	.header,
+	.project-header,
+	.project-image {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
+
+.project {
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+}
